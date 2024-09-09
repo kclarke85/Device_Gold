@@ -1,0 +1,1 @@
+ffmpeg -i input_video.mp4 -vf "scale=320:240" -b:v 500k -b:a 128k output_video.mp4
